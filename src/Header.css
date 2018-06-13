@@ -1,0 +1,60 @@
+.Header{
+  width: 100vw;
+  height: 500px;
+  background-image: url("http://www.grt-group.com/wp-content/uploads/2017/04/925-Mt-Pleasant-8-min.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.shadow{
+  width: 100vw;
+  height: 500px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+h1{
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poller One", "serif";
+  font-size: 70px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.Header-img-container{
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 50%;
+  left: 50%;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.Header-img{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url("https://www.dl.dropboxusercontent.com/s/uanr6t39nej644c/ProfilePic.jpg?dl=0");
+  background-size: cover;
+  background-position: center;
+}
+
+.Header-icons{
+  font-size: 30px;
+}
+
+.fa{
+  color: white;
+}
