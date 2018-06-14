@@ -48,7 +48,7 @@ class NavBar extends Component{
           </div>
         </div>
         <div className="content-container">
-          {this.state.active === "About" ? <About /> : this.state.active === "Portfolio" ? <Portfolio /> : this.state.active === "Skills" ? <Skills />: <Contact />}
+          {this.state.active === "About" ? <About /> : this.state.active === "Portfolio" ? <Portfolio /> : this.state.active === "Skills" ? <Skills /> : <Contact />}
         </div>
       </div>
     )
