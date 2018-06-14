@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.navElement:hover{
+.normal:hover{
   box-shadow: inset 0px 0px 5px #000;
 }
 

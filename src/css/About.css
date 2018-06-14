@@ -1,3 +1,32 @@
 .About{
-  
+  position: relative;
+  display: block;
+  top: 100px;
+  padding: 0;
+  margin: 0 auto 300px;
+  width: 800px;
+  height: 500px;
+}
+
+.About-intro{
+  margin: 0;
+  display: inline;
+  font-size: 26px;
+  line-height: 35px;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+h5{
+  display: inline-block;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 800;
+  color: #00c0cc;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+strong{
+  margin: 0;
+  padding: 0;
+  color: #00c0cc;
 }
