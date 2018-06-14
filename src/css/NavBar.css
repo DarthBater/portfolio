@@ -1,0 +1,36 @@
+.NavBar{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 60px;
+  background-color: #efefef;
+}
+
+.navElement{
+  width: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+.navElement:hover{
+  box-shadow: inset 0px 0px 5px #000;
+}
+
+.navSpacer{
+  width: 270px;
+  height: 100%;
+  border-radius: 60px;
+}
+
+h4{
+  position: relative;
+  top: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4:hover{
+  cursor: default;
+}
