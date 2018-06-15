@@ -33,7 +33,7 @@ class About extends Component{
          I am currently seeking an opportunity to take my passion for
          frontend development and design to the industry.
          </p>
-         <br /><br />< br /><br /><br />
+         <br /><br /><br />
          <p class="About-intro">When I'm not spending my time learning new technologies
          I enjoy golfing, weightlifting, and watching sports (Only <strong>{date} days</strong> until football).
          I'm just now getting over the fact that I will never be on the PGA tour, so I've replaced my

@@ -55,3 +55,103 @@ h2{
 .fa:hover{
   color: #e3e1df;
 }
+
+@media (max-width: 980px) {
+  h1{
+    font-size: 45px;
+    top: 150px;
+  }
+
+  h2{
+    font-size: 16px;
+    top: 175px;
+  }
+
+  .Header-icons{
+    top: 250px;
+    font-size: 30px;
+  }
+
+  .Header{
+    height: 400px;
+  }
+
+  .shadow{
+    height: 400px;
+  }
+}
+
+@media (max-width: 730px) {
+  h1{
+    font-size: 38px;
+    top: 130px;
+  }
+
+  h2{
+    font-size: 14px;
+    top: 150px;
+  }
+
+  .Header-icons{
+    top: 230px;
+    font-size: 24px;
+  }
+
+  .Header{
+    height: 350px;
+  }
+
+  .shadow{
+    height: 350px;
+  }
+}
+
+@media (max-width: 570px) {
+  h1{
+    font-size: 34px;
+    top: 110px;
+  }
+
+  h2{
+    font-size: 12px;
+    top: 130px;
+  }
+
+  .Header-icons{
+    top: 180px;
+    font-size: 20px;
+  }
+
+  .Header{
+    height: 300px;
+  }
+
+  .shadow{
+    height: 300px;
+  }
+}
+
+  @media (max-width: 482px) {
+    h1{
+      font-size: 26px;
+      top: 90px;
+    }
+
+    h2{
+      font-size: 9px;
+      top: 105px;
+    }
+
+    .Header-icons{
+      top: 140px;
+      font-size: 14px;
+    }
+
+    .Header{
+      height: 230px;
+    }
+
+    .shadow{
+      height: 230px;
+    }
+}

@@ -34,3 +34,63 @@ h4{
 h4:hover{
   cursor: default;
 }
+
+@media (max-width: 980px) {
+  .NavBar{
+    height: 50px;
+  }
+
+  .navElement{
+    width: 85px;
+  }
+
+  h4{
+    top: 16px;
+    font-size: 16px;
+  }
+
+  .navSpacer{
+    width: 205px;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 730px) {
+  .NavBar{
+    height: 34px;
+  }
+
+  .navElement{
+    width: 65px;
+  }
+
+  h4{
+    top: 10px;
+    font-size: 10px;
+  }
+
+  .navSpacer{
+    width: 132px;
+    border-radius: 35px;
+  }
+}
+
+@media (max-width: 482px) {
+  .NavBar{
+    height: 28px;
+  }
+
+  .navElement{
+    width: 58px;
+  }
+
+  h4{
+    top: 8px;
+    font-size: 10px;
+  }
+
+  .navSpacer{
+    width: 93px;
+    border-radius: 30px;
+  }
+}

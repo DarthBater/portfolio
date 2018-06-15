@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Bubble from './Bubble.js';
 import './css/Header.css';
 
 class Header extends Component{
@@ -36,6 +37,7 @@ class Header extends Component{
             </a>
           </div>
         </div>
+        <Bubble bubble={this.props.bubble}/>
       </div>
     )
   }

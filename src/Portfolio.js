@@ -9,6 +9,8 @@ class Portfolio extends Component{
   render(){
     return(
       <div className="portfolio-container">
+        <div className="portfolio-card">
+        </div>
       </div>
     )
   }

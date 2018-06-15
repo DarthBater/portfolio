@@ -23,7 +23,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header changeBubble={this.changeBubble} bubble={this.state.bubble}/>
-        <Bubble bubble={this.state.bubble}/>
         <NavBar />
       </div>
     );

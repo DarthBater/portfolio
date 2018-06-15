@@ -1,7 +1,7 @@
 .Bubble-img-container{
-  position: absolute;
-  transform: translate(-50%, 0);
-  top: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 0%;
   left: 50%;
   width: 260px;
   height: 260px;
@@ -29,4 +29,76 @@ h3{
   color: #fff;
   font-family: "Poller One", "serif";
   font-size: 40px;
+}
+
+@media (max-width: 980px) {
+  .Bubble-img-container{
+    width: 200px;
+    height: 200px;
+  }
+
+  .Bubble-bubble{
+    width: 195px;
+    height: 195px;
+    top: 2.5px;
+    left: 2.5px;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 730px) {
+  .Bubble-img-container{
+    width: 160px;
+    height: 160px;
+  }
+
+  .Bubble-bubble{
+    width: 156px;
+    height: 156px;
+    top: 2px;
+    left: 2px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 570px) {
+  .Bubble-img-container{
+    width: 130px;
+    height: 130px;
+  }
+
+  .Bubble-bubble{
+    width: 126px;
+    height: 126px;
+    top: 2px;
+    left: 2px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 482px) {
+  .Bubble-img-container{
+    width: 90px;
+    height: 90px;
+  }
+
+  .Bubble-bubble{
+    width: 86px;
+    height: 86px;
+    top: 2px;
+    left: 2px;
+  }
+
+  h3{
+    font-size: 16px;
+  }
 }
