@@ -20,7 +20,7 @@ class Languages extends Component{
 
   render(){
     return(
-      <div>
+      <div className="img-container">
         <a href={this.props.siteUrl}>
           <img onMouseOver={this.handleMouseOver}
           onMouseOut={this.handleMouseOut} className="lang-img" src={this.props.imgUrl}/>

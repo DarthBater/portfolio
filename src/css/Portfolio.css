@@ -1,17 +1,39 @@
 .portfolio-container{
-  position: relative;
-  display: block;
-  top: 100px;
-  padding: 0;
-  margin: 0 auto 300px;
-  width: 800px;
-  height: 500px;
+  margin: 6vw auto;
+  max-width: 600px;
+  padding: 2vh 3vw;
 }
 
 .portfolio-card{
+  border-radius: 10px;
+  background-color: #efefef;
+  box-shadow: inset 0px 0px 15px #dadada;
+  border: solid .5px #bababa;
+}
+
+.portfolio-image-container{
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.display-img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px #000;
+}
+
+.portfolio-title{
+  color: #00c0cc;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  padding: 100px;
-  background-color: #000;
+  margin: 0;
+  font-size: 18px;
+}
+
+.item-description{
+  padding: 1.5vw 2vw;
+  font-size: 16px;
+    font-family: 'Montserrat', 'sans-serif';
 }
