@@ -37,7 +37,7 @@ class Header extends Component{
             </a>
           </div>
         </div>
-        <Bubble bubble={this.props.bubble}/>
+        <Bubble bubbleUrl={this.props.bubbleUrl} bubble={this.props.bubble}/>
       </div>
     )
   }
