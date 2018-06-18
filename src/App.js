@@ -4,7 +4,7 @@ import Header from './Header.js';
 import Bubble from './Bubble.js';
 import NavBar from './NavBar.js';
 
-const profilePic="https://www.dl.dropboxusercontent.com/s/uanr6t39nej644c/ProfilePic.jpg?dl=0";
+const profilePic="https://www.dl.dropboxusercontent.com/s/mkwcp5t237cwa56/ProfilePic.jpg?dl=0";
 
 class App extends Component {
   constructor(props){

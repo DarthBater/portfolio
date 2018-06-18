@@ -4,7 +4,8 @@
   top: 100px;
   padding: 0;
   margin: 0 auto 300px;
-  width: 800px;
+  width: 80vw;
+  max-width: 800px;
   height: 500px;
 }
 
@@ -19,10 +20,49 @@
 .contact-info-container{
   position: relative;
   top: 60px;
-  width: 400px;
+  width: 60vw;
+  max-width: 400px;
   margin: 0 auto;
 }
 
 a{
   text-decoration: none;
+}
+
+
+@media (max-width: 980px) {
+  .contact-p{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .contact-info-container{
+    top: 45px;
+  }
+}
+
+@media (max-width: 730px) {
+  .contact-p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .contact-info-container{
+    top: 35px;
+  }
+}
+
+@media (max-width: 482px) {
+  .contact-p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-info-container{
+    top: 30px;
+  }
+
+  .Contact{
+    top: 70px;
+  }
 }
